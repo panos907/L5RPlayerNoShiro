@@ -1,0 +1,226 @@
+<resources>
+    <string name="app_name">L5R:Player no Shiro</string>
+    <string name="starting_screen">Starting Screen</string>
+    <string name="generate">GENERATE CHAR</string>
+    <string name="input_name">Input name:</string>
+    <string name="home">Home</string>
+    <string name="equipment">Equipment</string>
+    <string name="confirm">confirm</string>
+    <string name="hello">"Hello "</string>
+    <string name="char_history">Char History</string>
+    <string name="submit">Submit</string>
+    <string name="avatar">Avatar</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="character_name">Character Name:</string>
+    <string name="player_name">Player Name:</string>
+    <string name="logo">Logo</string>
+    <string name="clan_and_school">Clan And School</string>
+    <string name="name">Name</string>
+    <string name="create_character">Create Character</string>
+    <string name="character_first_name">Character First Name:</string>
+    <string name="select_a_clan">Select a Clan:</string>
+    <string name="help">Help</string>
+    <string name="experience_points">Experience Points</string>
+    <string name="enter_the_number_of_exp">Enter the number of EXP:</string>
+    <string name="select_a_school">Select a School:</string>
+    <string name="plus">+</string>
+    <string name="skills">Skills</string>
+    <string name="e">E</string>
+    <string name="minus">-</string>
+    <string name="hello_cost">Hello (cost)</string>
+    <string name="cost">Cost</string>
+    <string name="view_sheet">View Sheet</string>
+    <string name="traits">Traits</string>
+    <string name="disadvantages">Disadvantages</string>
+    <string name="advantages">Advantages</string>
+    <string name="school_skills">School Skills</string>
+    <string name="new_skills">New Skills</string>
+    <string name="stamina">Stamina</string>
+    <string name="strength">Strength</string>
+    <string name="reflexes">Reflexes</string>
+    <string name="perception">Perception</string>
+    <string name="agility">Agility</string>
+    <string name="intelligence">Intelligence</string>
+    <string name="rings">Rings</string>
+    <string name="textview">TextView</string>
+    <string name="voidring">Void</string>
+    <string name="awareness">Awareness</string>
+    <string name="value">Value</string>
+    <string name="skill">Skill</string>
+    <string name="spells">Spells</string>
+    <string name="load_character">Load Character</string>
+    <string name="mastery_rank">Mastery Rank</string>
+    <string name="spell">Spell</string>
+
+    <string-array name="Skills">
+        <item>ACTING</item>
+        <item>ARTISAN</item>
+        <item>CALLIGRAPHY</item>
+        <item>COURTIER</item>
+        <item>DIVINATION</item>
+        <item>ETIQUETTE</item>
+        <item>GAMES:FORTUNES AND WINDS</item>
+        <item>GAMES:GO</item>
+        <item>GAMES:KEMARI</item>
+        <item>GAMES:LETTERS</item>
+        <item>GAMES:SADANE</item>
+        <item>GAMES:SHOGI</item>
+        <item>INVESTIGATION</item>
+        <item>LORE:ANATOMY*</item>
+        <item>LORE:ARCHITECTURE</item>
+        <item>LORE:BUSHIDO</item>
+        <item>LORE:CRAB</item>
+        <item>LORE:LION</item>
+        <item>LORE:MANTIS</item>
+        <item>LORE:SPIDER</item>
+        <item>LORE:ELEMENTS</item>
+        <item>LORE:GHOSTS</item>
+        <item>LORE:HERALDRY</item>
+        <item>LORE:MAHO*</item>
+        <item>LORE:NATURE</item>
+        <item>LORE:OMENS</item>
+        <item>LORE:SHADOWLANDS*</item>
+        <item>LORE:SHUGENJA</item>
+        <item>LORE:SPIRIT REALMS</item>
+        <item>LORE:THEOLOGY</item>
+        <item>LORE:UNDERWOLRD*</item>
+        <item>LORE:WAR</item>
+        <item>LORE:CRANE</item>
+        <item>LORE:DRAGON</item>
+        <item>LORE:PHOENIX</item>
+        <item>LORE:SCORPION</item>
+        <item>LORE:UNICORN</item>
+        <item>LORE:GAIJIN</item>
+        <item>LORE:NONHUMAN</item>
+        <item>LORE:HISTORY</item>
+        <item>MEDICINE</item>
+        <item>MEDITATION </item>
+        <item>PERFORM:BIWA</item>
+        <item>PERFORM:DANCE</item>
+        <item>PERFORM:DRUMS</item>
+        <item>PERFORM:FLUTE</item>
+        <item>PERFORM:ORATORY</item>
+        <item>PERFORM:PUPPETEER</item>
+        <item>PERFORM:SHAMISEN</item>
+        <item>PERFORM:SONG</item>
+        <item>PERFORM:STORYTELLING</item>
+        <item>PERFORM:SOCIAL</item>
+        <item>SINCERITY</item>
+        <item>SPELLCRAFT</item>
+        <item>TEA CEREMONY</item>
+        <item>ATHLETICS</item>
+        <item>BATTLE</item>
+        <item>DEFENSE</item>
+        <item>HORSEMANSHIP</item>
+        <item>HUNTING</item>
+        <item>IAIJUTSU</item>
+        <item>JIUJUTSU</item>
+        <item>CHAIN WEAPONS</item>
+        <item>HEAVY WEAPONS</item>
+        <item>KENJUTSU</item>
+        <item>KYUJUTSU</item>
+        <item>NINJUTSU</item>
+        <item>POLEARMS</item>
+        <item>SPEARS</item>
+        <item>STAVES</item>
+        <item>WAR FAN</item>
+        <item>ANIMAL HANDLING</item>
+        <item>COMMERCE</item>
+        <item>CRAFT</item>
+        <item>ENGINEERING</item>
+        <item>SAILING</item>
+        <item>FORGERY </item>
+        <item>INTIMIDATION</item>
+        <item>SLEIGHT OF HAND</item>
+        <item>STEALTH</item>
+        <item>TEMPTATION</item>
+    </string-array>
+
+    <string-array name="Traits">
+        <item>Void</item>
+        <item>Intelligence</item>
+        <item>Agility</item>
+        <item>Stamina</item>
+        <item>Willpower</item>
+        <item>Perception</item>
+        <item>Strength</item>
+        <item>Awareness</item>
+        <item>Reflexes</item>
+    </string-array>
+
+    <string-array name="clans">
+        <item>Crab</item>
+        <item>Crane</item>
+        <item>Lion</item>
+        <item>Mantis</item>
+        <item>Unicorn</item>
+        <item>Dragon</item>
+        <item>Phoenix</item>
+        <item>Scorpion</item>
+        <item>Spider</item>
+    </string-array>
+
+    <string-array name="Crab_schools">
+        <item>Hida Bushi</item>
+        <item>Hiruma Bushi</item>
+        <item>Kuni Shugenja</item>
+        <item>Yasuki Courtier</item>
+    </string-array>
+
+    <string-array name="Crane_schools">
+        <item>Daidoji Bushi</item>
+        <item>Doji Courtier</item>
+        <item>Asahina Shugenja</item>
+        <item>Kakita Bushi</item>
+    </string-array>
+
+    <string-array name="Unicorn_schools">
+        <item>Ide Courtier</item>
+        <item>Moto Bushi</item>
+        <item>Utaku Battle Maiden</item>
+        <item>Iuchi Shugenja</item>
+    </string-array>
+
+    <string-array name="Mantis_schools">
+        <item>Yoritomo Bushi</item>
+        <item>Tsuruchi Archer</item>
+        <item>Yoritomo Courtier</item>
+        <item>Moshi Shugenja</item>
+    </string-array>
+
+    <string-array name="Scorpion_schools">
+        <item>Bayushi Bushi</item>
+        <item>Soshi Shugenja</item>
+        <item>Bayushi Courtier</item>
+        <item>Shosuro Infiltrator</item>
+    </string-array>
+
+    <string-array name="Dragon_schools">
+        <item>Mirumoto Bushi</item>
+        <item>Agasha Shugenja</item>
+        <item>Kitsuki Investigator</item>
+        <item>Togashi Monk</item>
+    </string-array>
+
+    <string-array name="Phoenix_schools">
+        <item>Shiba Bushi</item>
+        <item>Isawa Shugenja</item>
+        <item>Asako Loremaster</item>
+    </string-array>
+
+    <string-array name="Lion_schools">
+        <item>Akodo Bushi</item>
+        <item>Matsu Berserker</item>
+        <item>Ikoma Bard</item>
+        <item>Kitsu Shugenja</item>
+    </string-array>
+
+    <string-array name="Spider_schools">
+        <item>Daigotsu Bushi</item>
+        <item>Chuda Shugenja</item>
+        <item>Daigotsu Courtier</item>
+        <item>Order Of The Spider Monks</item>
+    </string-array>
+
+</resources>

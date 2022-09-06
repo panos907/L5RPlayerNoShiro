@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication">
+        <activity android:name=".WelcomeActivity"
+            android:screenOrientation = "portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".LoadActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".EquipmentActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".SpellsActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".CustomShugenjaMenuActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".TraitsActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".ViewSheetActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".DisadvantagesActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".AdvantagesActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".CustomMenuActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".NewSkillsInputActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".EXPInputActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".ClanSchoolActivity"
+            android:screenOrientation = "portrait"/>
+        <activity android:name=".MainActivity"
+            android:screenOrientation = "portrait"/>
+    </application>
+
+</manifest>
